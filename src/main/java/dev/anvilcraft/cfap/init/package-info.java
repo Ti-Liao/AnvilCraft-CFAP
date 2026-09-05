@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package dev.anvilcraft.addon.template.mixin;
+package dev.anvilcraft.cfap.init;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

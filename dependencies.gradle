@@ -1,6 +1,11 @@
 dependencies {
+
+
     // Anvil Lib
     implementation(libs.anvillib)
+
+    // Ageratum 藿香
+    api(libs.ageratum)
 
     // AnvilCraft
     implementation(libs.anvilcraft) { transitive = false }

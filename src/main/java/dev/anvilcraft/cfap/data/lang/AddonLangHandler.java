@@ -1,6 +1,6 @@
-package dev.anvilcraft.addon.template.data.lang;
+package dev.anvilcraft.cfap.data.lang;
 
-import dev.anvilcraft.addon.template.AddonConfig;
+import dev.anvilcraft.cfap.AddonConfig;
 import dev.anvilcraft.lib.v2.config.ConfigData;
 import dev.anvilcraft.lib.v2.registrum.providers.RegistrumLangProvider;
 

@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package dev.anvilcraft.addon.template.data.lang;
+package dev.anvilcraft.cfap;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

@@ -1,9 +1,9 @@
-package dev.anvilcraft.addon.template.init;
+package dev.anvilcraft.cfap.init;
 
 import dev.anvilcraft.lib.v2.registrum.util.entry.ItemEntry;
 import net.minecraft.world.item.Item;
 
-import static dev.anvilcraft.addon.template.AnvilCraftAddonTemplate.REGISTRUM;
+import static dev.anvilcraft.cfap.AnvilCraftCFAP.REGISTRUM;
 
 public class AddonItems {
     static {

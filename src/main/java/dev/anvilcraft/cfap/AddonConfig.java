@@ -1,10 +1,10 @@
-package dev.anvilcraft.addon.template;
+package dev.anvilcraft.cfap;
 
 import dev.anvilcraft.lib.v2.config.BoundedDiscrete;
 import dev.anvilcraft.lib.v2.config.Comment;
 import dev.anvilcraft.lib.v2.config.Config;
 
-@Config(name = AnvilCraftAddonTemplate.MOD_ID)
+@Config(name = AnvilCraftCFAP.MOD_ID)
 public class AddonConfig {
     @Comment("Whether to log the dirt block on common setup")
     public boolean logDirtBlock = false;

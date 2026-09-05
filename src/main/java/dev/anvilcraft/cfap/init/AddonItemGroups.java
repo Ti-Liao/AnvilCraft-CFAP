@@ -1,6 +1,6 @@
-package dev.anvilcraft.addon.template.init;
+package dev.anvilcraft.cfap.init;
 
-import dev.anvilcraft.addon.template.AnvilCraftAddonTemplate;
+import dev.anvilcraft.cfap.AnvilCraftCFAP;
 import dev.dubhe.anvilcraft.init.item.ModItemGroups;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.CreativeModeTab;
@@ -8,13 +8,13 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
-import static dev.anvilcraft.addon.template.AnvilCraftAddonTemplate.REGISTRUM;
+import static dev.anvilcraft.cfap.AnvilCraftCFAP.REGISTRUM;
 
 
 public class AddonItemGroups {
     private static final DeferredRegister<CreativeModeTab> DEFERRED_REGISTER = DeferredRegister.create(
         Registries.CREATIVE_MODE_TAB,
-        AnvilCraftAddonTemplate.MOD_ID
+        AnvilCraftCFAP.MOD_ID
     );
 
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> ADDON_ITEMS = DEFERRED_REGISTER.register(
@@ -26,7 +26,7 @@ public class AddonItemGroups {
             .title(
                 REGISTRUM.addLang(
                     "itemGroup",
-                    AnvilCraftAddonTemplate.of("addon_items"),
+                    AnvilCraftCFAP.of("addon_items"),
                     "AnvilCraft: Addon Template"
                 )
             )

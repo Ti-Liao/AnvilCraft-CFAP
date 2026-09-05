@@ -1,9 +1,9 @@
-package dev.anvilcraft.addon.template.init;
+package dev.anvilcraft.cfap.init;
 
 import dev.anvilcraft.lib.v2.registrum.util.entry.BlockEntry;
 import net.minecraft.world.level.block.Block;
 
-import static dev.anvilcraft.addon.template.AnvilCraftAddonTemplate.REGISTRUM;
+import static dev.anvilcraft.cfap.AnvilCraftCFAP.REGISTRUM;
 
 public class AddonBlocks {
     static {
