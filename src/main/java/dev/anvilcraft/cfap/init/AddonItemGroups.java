@@ -18,19 +18,18 @@ public class AddonItemGroups {
     );
 
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> ADDON_ITEMS = DEFERRED_REGISTER.register(
-        "addon_items",
+        "anvilcraft_cfap",
         () -> CreativeModeTab.builder()
-            .icon(AddonItems.EXAMPLE_ITEM::asStack)
+            .icon(AddonBlocks.FELLING_BLOCK::asStack)
             .displayItems((ctx, entries) -> {
             })
             .title(
                 REGISTRUM.addLang(
                     "itemGroup",
-                    AnvilCraftCFAP.of("addon_items"),
-                    "AnvilCraft: Addon Template"
+                    AnvilCraftCFAP.of("anvilcraft_cfap"),
+                    "AnvilCraft: CFAP"
                 )
             )
-            .withTabsBefore(ModItemGroups.ANVILCRAFT_BUILD_BLOCK.getId())
             .build()
     );
 

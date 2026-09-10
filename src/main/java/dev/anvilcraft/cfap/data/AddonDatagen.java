@@ -12,12 +12,15 @@ import static dev.anvilcraft.cfap.AnvilCraftCFAP.REGISTRUM;
 @EventBusSubscriber(modid = AnvilCraftCFAP.MOD_ID)
 public class AddonDatagen {
     @SubscribeEvent
-    public static void gatherData(GatherDataEvent event) {}
+    public static void gatherData(GatherDataEvent event) {
+
+    }
 
     /**
      * 初始化生成器
      */
     public static void init() {
         REGISTRUM.addDataGenerator(ProviderType.LANG, AddonLangHandler::init);
+
     }
 }

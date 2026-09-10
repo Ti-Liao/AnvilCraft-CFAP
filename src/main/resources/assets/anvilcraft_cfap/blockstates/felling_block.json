@@ -1,0 +1,35 @@
+
+{
+  "variants": {
+    "facing=east,triggered=false": {
+      "model": "anvilcraft_cfap:block/felling_block",
+      "y": 90
+    },
+    "facing=east,triggered=true": {
+      "model": "anvilcraft_cfap:block/felling_block_on",
+      "y": 90
+    },
+    "facing=north,triggered=false": {
+      "model": "anvilcraft_cfap:block/felling_block"
+    },
+    "facing=north,triggered=true": {
+      "model": "anvilcraft_cfap:block/felling_block_on"
+    },
+    "facing=south,triggered=false": {
+      "model": "anvilcraft_cfap:block/felling_block",
+      "y": 180
+    },
+    "facing=south,triggered=true": {
+      "model": "anvilcraft_cfap:block/felling_block_on",
+      "y": 180
+    },
+    "facing=west,triggered=false": {
+      "model": "anvilcraft_cfap:block/felling_block",
+      "y": 270
+    },
+    "facing=west,triggered=true": {
+      "model": "anvilcraft_cfap:block/felling_block_on",
+      "y": 270
+    }
+  }
+}
