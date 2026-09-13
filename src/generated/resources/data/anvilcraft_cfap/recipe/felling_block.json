@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "C": {
+      "item": "minecraft:stonecutter"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "S": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "pattern": [
+    "SA ",
+    "RCA",
+    "SA "
+  ],
+  "result": {
+    "count": 1,
+    "id": "anvilcraft_cfap:felling_block"
+  }
+}

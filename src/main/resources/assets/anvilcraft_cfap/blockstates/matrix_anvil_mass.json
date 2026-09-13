@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "anvilcraft_cfap:block/matrix_anvil_mass",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "anvilcraft_cfap:block/matrix_anvil_mass",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "anvilcraft_cfap:block/matrix_anvil_mass"
+    },
+    "facing=west": {
+      "model": "anvilcraft_cfap:block/matrix_anvil_mass",
+      "y": 90
+    }
+
+  }
+}

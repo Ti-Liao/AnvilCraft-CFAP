@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "anvilcraft_addon_template:example_block"
+          "name": "anvilcraft_cfap:matrix_anvil_mass"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "anvilcraft_addon_template:blocks/example_block"
+  "random_sequence": "anvilcraft_cfap:blocks/matrix_anvil_mass"
 }

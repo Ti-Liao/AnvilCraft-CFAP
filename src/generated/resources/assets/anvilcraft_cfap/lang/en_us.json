@@ -1,0 +1,14 @@
+{
+  "anvilcraft_cfap.configuration.log_dirt_block": "Log Dirt Block",
+  "anvilcraft_cfap.configuration.log_dirt_block.tooltip": "Whether to log the dirt block on common setup",
+  "anvilcraft_cfap.configuration.magic_number": "Magic Number",
+  "anvilcraft_cfap.configuration.magic_number.tooltip": "A magic number",
+  "anvilcraft_cfap.configuration.magic_number_introduction": "Magic Number Introduction",
+  "anvilcraft_cfap.configuration.magic_number_introduction.tooltip": "What you want the introduction message to be for the magic number",
+  "anvilcraft_cfap.configuration.section.anvilcraft.cfap.common.toml": "Anvilcraft Cfap Common Configuration",
+  "anvilcraft_cfap.configuration.section.anvilcraft.cfap.common.toml.title": "Anvilcraft Cfap Common Configuration",
+  "anvilcraft_cfap.configuration.title": "Anvilcraft Cfap Configuration",
+  "block.anvilcraft_cfap.felling_block": "Felling Block",
+  "block.anvilcraft_cfap.matrix_anvil_mass": "Matrix Anvil Mass",
+  "itemGroup.anvilcraft_cfap.anvilcraft_cfap": "AnvilCraft: CFAP"
+}

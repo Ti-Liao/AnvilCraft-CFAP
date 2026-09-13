@@ -1,0 +1,50 @@
+{
+  "type": "anvilcraft:procedural_process",
+  "icon": {
+    "count": 1,
+    "id": "anvilcraft_cfap:matrix_anvil_mass"
+  },
+  "initial_block": {
+    "blocks": "anvilcraft_cfap:matrix_anvil_mass"
+  },
+  "loop": 9,
+  "multiple_loop_first_step": {
+    "content": {
+      "type": "anvilcraft:block_compress",
+      "inputs": [
+        {
+          "blocks": "minecraft:anvil"
+        },
+        {
+          "blocks": "anvilcraft:wip_block"
+        }
+      ],
+      "result": {
+        "block": "anvilcraft:wip_block"
+      }
+    },
+    "index": 0
+  },
+  "result_block": {
+    "block": "anvilcraft_cfap:matrix_anvil_mass"
+  },
+  "steps": [
+    {
+      "content": {
+        "type": "anvilcraft:block_compress",
+        "inputs": [
+          {
+            "blocks": "minecraft:anvil"
+          },
+          {
+            "blocks": "anvilcraft:resin_block"
+          }
+        ],
+        "result": {
+          "block": "anvilcraft:wip_block"
+        }
+      },
+      "index": 0
+    }
+  ]
+}
